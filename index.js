@@ -15,7 +15,7 @@ app.post('/', async (req, res) => {
         const { business, latitude, longitude} = req.body
 
         
-
+// how to reduce the execution size??
         const browser = await puppeteer.launch()
 
         console.log(business)
